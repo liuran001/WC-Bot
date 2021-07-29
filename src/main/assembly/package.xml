@@ -15,7 +15,7 @@
             <scope>runtime</scope>
             <excludes>
                 <exclude>me.onebone:economyapi</exclude>
-                <exclude>nukkit:nukkit</exclude>
+                <exclude>cn.nukkit:nukkit</exclude>
                 <exclude>org.projectlombok:lombok</exclude>
             </excludes>
         </dependencySet>
