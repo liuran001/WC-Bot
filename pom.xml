@@ -47,7 +47,7 @@
         <dependency>
             <groupId>me.onebone</groupId>
             <artifactId>economyapi</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -70,6 +70,12 @@
             <scope>system</scope>
             <systemPath>${basedir}/lib/gui-1.15.1.jar</systemPath>
         </dependency>
+	<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.20</version>
+		<scope>provided</scope>
+	</dependency>
     </dependencies>
 
     <repositories>
@@ -108,6 +114,10 @@
         <repository>
             <id>repo-lanink-cn</id>
             <url>https://repo.lanink.cn/</url>
+        </repository>
+        <repository>
+            <id>nukkitx-repo</id>
+            <url>http://repo.nukkitx.com/maven-snapshots/</url>
         </repository>
     </repositories>
 </project>
